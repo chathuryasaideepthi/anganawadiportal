@@ -1,0 +1,94 @@
+.patient-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge.red {
+  background-color: #e74c3c;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.stage {
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.deficiencies .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.pill.red {
+  background-color: #f8d7da;
+  color: #c0392b;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.boolean-yes {
+  color: green;
+  font-weight: 500;
+}
+
+.boolean-no {
+  color: red;
+  font-weight: 500;
+}
+
+.button-group {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.view-btn,
+.visit-btn {
+  flex: 1;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.view-btn {
+  background-color: #2ecc71;
+}
+
+.view-btn:hover {
+  background-color: #27ae60;
+}
+
+.visit-btn {
+  background-color: #3498db;
+}
+
+.visit-btn:hover {
+  background-color: #2980b9;
+}
+
+.visit-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
